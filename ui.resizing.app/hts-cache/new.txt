@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+02:12:56	1449/1449	---M-Z	404	error ('Not%20Found')	text/html	etag:1559837097-ssl-df	https://ui.resizing.app/robots.txt		(from )
+02:12:57	662/662	---M--	200	added ('OK')	text/html	etag:%2265bfe802ed16d321801bff04a5f5b478-ssl%22	https://ui.resizing.app/	/storage/emulated/0/HTTrack/Websites/Camera/ui.resizing.app/index.html	(from )
+02:12:58	167792/167792	---M-Z	200	added ('OK')	application/javascript	etag:%226cdf4f10746affa2b7a9c6af997ecc47-ssl-df%22	https://ui.resizing.app/main.js	/storage/emulated/0/HTTrack/Websites/Camera/ui.resizing.app/main.js	(from https://ui.resizing.app/)

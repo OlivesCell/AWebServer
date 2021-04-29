@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from quickblox.github.io/javascript-media-recorder/sample/ by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 09 Apr 2021 23:47:28 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>Media Stream Recorder by Quickblox</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="../../../external.html?link=https://docs.quickblox.com/">
+
+    <link rel="stylesheet" href="css/spectre.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="content">
+        <header class="title wrap">
+            <h1 class="title_main text-center">GoogleCamFix
+                <span class="title_sub">by&nbsp;Olives</span>
+            </h1>
+        </header>
+
+        <aside class="toast wrap">
+            This demo requires Firefox&nbsp;49, Chrome&nbsp;49, Chrome&nbsp;for&nbsp;Android&nbsp;53, Opera&nbsp;41 or&nbsp;later. The https is required.
+        </aside>
+
+        <main>
+            <div class="columns">
+                <div class="column col-6 col-xs-12">
+                    <div>
+                        <div class="card-image">
+                            <div>
+                                <video style="width:384px;height:384px;object-fit:fill;" class=" j-video_local video" controls muted></video>
+#512px=5/4/3=480px
+                            </div>
+                        </div>
+                        
+                        <div class="source">
+                            <div class="form-group">
+                                <select id="j-audioSource" class="invisible form-select select-sm">
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="j-videoSource" class="invisible form-select select-sm">
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="j-mimeTypes" class="invisible form-select select-sm">
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <h5 class="card-title">Recording</h5>
+                            <div class="btn-group btn-group-block">
+                                <button class="btn j-start">Start</button>
+                                <button class="btn j-pause" disabled>Pause</button>
+                                <button class="btn j-resume" disabled>Resume</button>
+                                <button class="btn j-stop" disabled>Stop</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column col-6 col-xs-12">
+                    <div class="card j-result-card">
+                        <div class="card-image">
+                            <div>
+                                <video class="j-video_result video" controls></video>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <h5 class="card-title">Record</h5>
+                            <div class="btn-group btn-group-block">
+                                <button class="btn j-clear" disabled>Clear</button>
+                                <button class="btn j-download" disabled>Download</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p class="lead ">
+            See <a href="../../../external.html?link=https://quickblox.github.io/javascript-media-recorder/docs/index.html" target="_blank">docs</a> and <a href="../../../external.html?link=https://github.com/QuickBlox/javascript-media-recorder/" target="_blank">source&nbsp;code</a>
+        </p>
+    </footer>
+
+    <div class="j-notify notify toast toast-danger"></div>
+
+    <script src="../../../webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="../qbMediaRecorder.js"></script>
+    <script src="main.js"></script>
+</body>
+
+<!-- Mirrored from quickblox.github.io/javascript-media-recorder/sample/ by HTTrack Website Copier/3.x [XR&CO'2017], Fri, 09 Apr 2021 23:47:35 GMT -->
+</html>
